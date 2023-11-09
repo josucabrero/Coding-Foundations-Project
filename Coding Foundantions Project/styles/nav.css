@@ -1,0 +1,100 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    width: 20%;
+}
+
+.navigation-wrapper > .left-column > .logo {
+    margin-right: 75px;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 100%;
+}
+
+/* Center column styles */
+.links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: grey;
+}
+
+.links-wrapper > .nav-link-chevron a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link-chevron a:hover {
+    color: white;
+}
+
+.navigation-wrapper > .center-column {
+    margin-bottom: 12px;
+    width: 390px;
+}
+
+.navigation-wrapper > .center-column > .explore {
+    font-size: 8px; 
+    font-family: 'Roboto', sans-serif;
+    color: #f8e068;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    margin-left: 415px;
+}
+
+.navigation-wrapper > .right-column > .nav-right {
+    padding: 10px;
+}
+
+.right-column > .nav-right a{
+    background-color: darkslategrey;
+    color: white;
+    width: 290px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+}
+
+.right-column > .nav-right a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.right-column > .nav-right > .fa-solid {
+    color: grey;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.right-column > .nav-right > .fa-solid:hover {
+    color: white; 
+}

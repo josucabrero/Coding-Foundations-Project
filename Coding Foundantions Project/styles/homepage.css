@@ -1,0 +1,128 @@
+/* Common styles */
+.hero-section {
+    background-color: #3E424B;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    box-shadow: inset -685px -82px 500px -8px rgba(0, 0, 0, 0.58);
+}
+
+/* Left section styles */
+.hero-section > .left-hero-section {
+    width: 45%;
+}
+
+.hero-section > .left-hero-section > .top-left-section {
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.hero-section > .left-hero-section > .middle-left-section {
+    color: white;
+    font-size: 37px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+.hero-section > .left-hero-section > .bottom-left-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.hero-section > .left-hero-section > .bottom-left-section > .left-button a {
+    background-color: lightgreen;
+    width: 220px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    transition: 0.5s;
+}
+
+.hero-section > .left-hero-section > .bottom-left-section > .left-button a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.hero-section > .left-hero-section > .bottom-left-section > .right-button {
+    padding-left: 20px;
+}
+
+.hero-section > .left-hero-section > .bottom-left-section > .right-button a {
+    background-color: black;
+    width: 155px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    border-left: 5px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+
+.hero-section > .left-hero-section > .bottom-left-section > .right-button a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Right section styles */
+.hero-section > .right-hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40%;
+    padding-top: 45px;
+}
+
+.hero-section > .right-hero-section > .top-right-section {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.hero-section > .right-hero-section > .top-right-section > p b {
+    font-family: 'Roboto', sans-serif;
+    color: lightskyblue;
+}
+
+
+.hero-section > .right-hero-section > .bottom-right-section img {
+    width: 100%;
+}
+
+/* Features section styles */
+
+.features-section > .columns-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    padding-top: 0px;
+}
+
+.features-section > .columns-wrapper > .column {
+    margin-top: -14px;
+    margin-bottom: -14px;
+}
+
+.features-section > .columns-wrapper > .column p {
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 2px;
+    padding: 15px 110px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.features-section > .columns-wrapper > .column > p b {
+    border: black;
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    font-size: 20px;
+}
